@@ -1,0 +1,11 @@
+﻿@page
+@model IoTinker.Pages.SystemModel
+@{
+    ViewData["Title"] = "System";
+}
+<h1>@ViewData["Title"]</h1>
+
+<form method="post">
+    <input type="submit" value="Toggle" asp-page-handler="Toggle" class="btn btn-default" />
+</form>
+
